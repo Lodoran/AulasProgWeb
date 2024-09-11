@@ -1,7 +1,9 @@
-h1{
-	text-align: center;
-	background-image: linear-gradient(gray,whitesmoke);
-	color: linear-gradient(darkgray,black);
+h1 {
+    text-align: center;
+    background-image: linear-gradient(gray, whitesmoke);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 h2{
 	text-align: center;
